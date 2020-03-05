@@ -4,9 +4,12 @@ import Login from '../screens/login'
 import PrivateRoute from './privateRoute'
 import ProductsScreen from '../screens/productsScreen'
 
+import HeaderComponent from '../components/header/HeaderComponent'
+
 const Routes = () => {
   return (
     <Router>
+      <HeaderComponent />
       <Switch>
         <Route exact path='/' component={Login}></Route>
         <PrivateRoute
