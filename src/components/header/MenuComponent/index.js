@@ -22,9 +22,10 @@ MenuComponent.propTypes = {
 }
 
 const Menu = styled(motion.div)`
+  position: absolute;
   top: 60;
   width: 100vw;
-  height: calc(100vh - 60px - 48px);
+  height: calc(100vh - 60px);
   border-top: 5px solid #e3e4e5;
   background-color: #fff;
 `

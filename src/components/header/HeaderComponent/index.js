@@ -62,7 +62,7 @@ const HeaderComponent = () => {
 const Header = styled.header`
   width: calc(100vw-12px);
   height: 60px;
-  margin: 6px 0px 6 px 0px;
+  margin: 6px 0px 6px 0px;
   background-color: #fff;
   display: flex;
   align-items: center;

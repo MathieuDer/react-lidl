@@ -23,21 +23,21 @@ const Routes = () => {
 }
 
 const LoginContainer = () => (
-  <div>
+  <>
     <Route exact path='/' render={() => <Redirect to='/' />} />
     <Route path='/' component={Login} />
-  </div>
+  </>
 )
 
 const DefaultContainer = () => (
-  <div>
+  <>
     <HeaderComponent />
     <PrivateRoute
       exact
       path='/products'
       component={ProductsScreen}
     ></PrivateRoute>
-  </div>
+  </>
 )
 
 export default Routes
