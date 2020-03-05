@@ -77,7 +77,7 @@ const CustomCard = styled(Card)`
 `
 const ProductName = styled.div``
 const ProductImage = styled.img`
-  width: 50%;
+  width: auto;
 `
 
 const QuantityWrapper = styled.div`
