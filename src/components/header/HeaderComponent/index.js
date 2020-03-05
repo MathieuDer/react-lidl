@@ -53,7 +53,7 @@ const HeaderComponent = () => {
         title={`Mon panier`}
         onClose={() => setBasketState(!basketState)}
       >
-        Modal Content
+        lorem...
       </Modal>
     </Fragment>
   )
