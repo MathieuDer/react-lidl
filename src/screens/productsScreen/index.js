@@ -42,8 +42,7 @@ const ProductsScreen = ({ history }) => {
           <CustomCard key={i}>
             <ProductName>{product.name}</ProductName>
             <ProductImage src={product.images[0]} />
-            <Separator />
-
+            <ProductPrice>{product.price}</ProductPrice>
             <QuantityWrapper>
               <FiMinusCircle onClick={e => dicQuantity(e, product.name)} />
               <QuantityItem
@@ -56,7 +55,6 @@ const ProductsScreen = ({ history }) => {
             <StyledButton onClick={e => addToBasket(e, product.name)}>
               Ajouter
             </StyledButton>
-            <ProductPrice>{product.price}</ProductPrice>
           </CustomCard>
         ))}
       </CategoriesContainer>
@@ -82,16 +80,8 @@ const ProductImage = styled.img`
   width: 50%;
 `
 
-const Separator = styled.hr`
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid black;
-  margin: 15px;
-  padding: 0;
-`
-
 const QuantityWrapper = styled.div`
+ margin 10px 0px 10px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -102,10 +92,11 @@ const ProductPrice = styled.span`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 1px solid #c6c9cc;
   align-items: center;
   padding: 0.5rem;
   font-weight: 800;
+  font-size: 1.5rem;
+  border: 1px solid #c6c9cc;
 `
 
 const QuantityItem = styled.input.attrs({
@@ -116,6 +107,7 @@ const QuantityItem = styled.input.attrs({
   margin: 0px 6px;
   width: 3rem;
   text-align: center;
+  border: 1px solid #c6c9cc;
 `
 
 const StyledButton = styled.div`
