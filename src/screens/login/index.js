@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Logo from '../../components/logo'
-import LoginForm from '../../components/loginForm'
+import LoginForm from '../../components/login'
 
 const Login = props => {
   return (

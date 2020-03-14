@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Fragment } from 'react'
 import { useLocation } from 'react-router-dom'
-import MenuComponent from '../MenuComponent'
-import Modal from '../../common/Modal'
+import MenuComponent from '../menu'
+import Basket from '../../common/basket'
 
 import styled from 'styled-components'
 import {
@@ -47,14 +47,10 @@ const HeaderComponent = () => {
         <MonitorIcon />
       </Header>
       <MenuComponent display={menuState} />
-      <Modal
+      <Basket
         display={basketState}
-        width={`80vw`}
-        title={`Mon panier`}
         onClose={() => setBasketState(!basketState)}
-      >
-        lorem...
-      </Modal>
+      />
     </Fragment>
   )
 }

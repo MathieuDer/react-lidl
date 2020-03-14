@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Navigation from '../Navigation'
-import NavigationFooter from '../NavigationFooter'
+import Navigation from '../navigation'
+import NavigationFooter from '../footer'
 
 import styled from 'styled-components'
 import { motion } from 'framer-motion'

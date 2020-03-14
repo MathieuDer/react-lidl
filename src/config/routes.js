@@ -7,9 +7,9 @@ import {
 } from 'react-router-dom'
 import Login from '../screens/login'
 import PrivateRoute from './privateRoute'
-import ProductsScreen from '../screens/productsScreen'
+import ProductsScreen from '../screens/products'
 
-import HeaderComponent from '../components/header/HeaderComponent'
+import Header from '../components/nav/header'
 
 const Routes = () => {
   return (
@@ -31,7 +31,7 @@ const LoginContainer = () => (
 
 const DefaultContainer = () => (
   <>
-    <HeaderComponent />
+    <Header />
     <PrivateRoute
       exact
       path='/products'
