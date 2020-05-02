@@ -10,14 +10,14 @@ const Products = [
     price: '2.29'
   },
   {
-    name: 'Concombre',
+    name: 'Artichaut',
     images: [
-      'https://fr.cat-ret.assets.lidl/catalog4media/fr/article/82233/gallery/preview/lg/82233_01.jpg'
+      'https://fr.cat-ret.assets.lidl/catalog4media/fr/article/82676/gallery/preview/lg/82676_03.jpg'
     ],
     description:
-      'Le 1er concombre est à 0.99 € et le 2ème concombre est à 0.50 €',
+      'Catégorie 1, Calibre : 11/13 cm',
     origin: 'France',
-    price: '0.75'
+    price: '1.49'
   }
 ]
 
