@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import PropTypes from 'prop-types'
-import Modal from '../modal'
+import Modal from '../../common/Modal'
 import styled from 'styled-components'
 
 const Basket = ({ display, onClose }) => {

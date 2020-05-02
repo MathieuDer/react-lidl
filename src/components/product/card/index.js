@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import Quantity from '../quantity'
-import Card from '../../common/card'
+import Card from '../../common/Card'
 
 import styled from 'styled-components'
 
